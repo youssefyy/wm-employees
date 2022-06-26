@@ -1,0 +1,12 @@
+.EmployeeBoxContainer .employee-name {
+    font-size: 20px;
+    font-weight: 900;
+}
+.EmployeeBoxContainer .employee-title {
+    font-size: 14px;
+}
+
+.EmployeeBoxContainer .employee-name-title {
+    width: 200px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,15 @@
+.button-container__secondary {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: #eb3b81;
+}
+
+.button-container__primary {
+    color: #00362E;
+    background-color: white;
+}
+
+.button-container__primary:hover, .button-container__secondary:hover {
+    background-color: #eb3b81;
+    color: white;
+}

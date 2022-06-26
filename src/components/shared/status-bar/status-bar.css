@@ -1,0 +1,37 @@
+.StatusTriangle:after {
+    border: transparent;
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    transform: rotate(45deg);
+    top: -64px;
+    left: 154px;
+    box-shadow: 3px -3px 1px -2px black;
+    z-index: 2;
+    background: white;
+}
+
+.status-text {
+    position: absolute;
+    top: 28px;
+    left: 75px;
+}
+
+.StatusBox.active-StatusBox, .StatusBox.active-StatusBox:hover {
+    background-color: rgb(34, 85, 209);
+    color: white;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+.StatusTriangle.active-StatusTriangle {
+    border-color: transparent transparent transparent rgb(34,85,209);
+    pointer-events: none;
+}
+
+.StatusTriangle.active-StatusTriangle:after {
+    background: rgb(34,85,209);;
+}
+
+@media only screen and (min-width: 1025px) {}
