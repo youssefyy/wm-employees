@@ -1,3 +1,7 @@
+# For for mobile and desktop versions, please check the live experience here 👉🏻 https://soum-products.netlify.app/
+# You can also SCAN ME!
+![alt text](/public/qr.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
